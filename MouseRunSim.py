@@ -1,16 +1,16 @@
 import fludfill as ff
 import numpy as np
-import time
+# import time
 
-#game variables
+# #game variables
 
-direct = {  'UP'      : 0,
-            'RIGHT'   : 1,
-            'DOWN'    : 2,
-            'LEFT'    : 3,
-            }
-X_direction = 1
-Y_direction = 1
+# direct = {  'UP'      : 0,
+#             'RIGHT'   : 1,
+#             'DOWN'    : 2,
+#             'LEFT'    : 3,
+#             }
+# X_direction = 1
+# Y_direction = 1
 
 
 H_walls, V_walls = ff.Get_maze_wall()
